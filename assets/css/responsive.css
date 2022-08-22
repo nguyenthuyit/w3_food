@@ -1,0 +1,37 @@
+@media(min-width :740px) and (max-width: 1023px){
+    #content img{
+        height: 50%;
+    }
+    #content .grid-content{
+        row-gap: 60px;
+    }
+    #footer .sub-second img{
+        width: 100%;
+        padding: 8px;
+    }
+    #footer .info-second{
+        padding: unset;
+        margin: unset;
+    }
+}
+@media(max-width: 739px){
+    #content img{
+        height: unset;
+    }
+    #content .grid-content{
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+    #about img {
+        width: 100%;
+    }
+    #footer .grid-footer{
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+    #footer .sub-second img {
+        width: 100%;
+        padding: 8px;
+    }
+
+}
